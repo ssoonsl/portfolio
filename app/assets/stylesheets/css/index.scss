@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body {
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes fontfix {
+    from { opacity: 1; }
+    to   { opacity: 1; }
+}
+
+footer {
+  background-color: black;
+}
+
+body {
+  background-color: #caebe6;
+  font-family: 'Source Sans Pro', Sans-Serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Playfair Display', Serif;
+  font-size: 48px;
+}
+
+.well {
+  background-color: #caebe6;
+}
+
+.panel-heading {
+  color: white !important;
+  background-color: #01504e !important;
+}
